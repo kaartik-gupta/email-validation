@@ -1,0 +1,25 @@
+{
+  "name": "emailvalidation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "deep-email-validator": "^0.1.18",
+    "deep-email-validator-extended": "^0.2.0",
+    "email-deep-validator": "^3.3.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "is-valid-domain": "^0.1.2",
+    "kickbox": "^2.0.4",
+    "mailcheck": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
